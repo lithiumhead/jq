@@ -69,12 +69,12 @@ LIBM_DDD(hypot)
 LIBM_DDD_NO(hypot)
 #endif
 #ifdef HAVE_J0
-LIBM_DD(j0)
+//LIBM_DD(j0)
 #else
 LIBM_DD_NO(j0)
 #endif
 #ifdef HAVE_J1
-LIBM_DD(j1)
+//LIBM_DD(j1)
 #else
 LIBM_DD_NO(j1)
 #endif
@@ -134,12 +134,12 @@ LIBM_DD(tgamma)
 LIBM_DD_NO(tgamma)
 #endif
 #ifdef HAVE_Y0
-LIBM_DD(y0)
+//LIBM_DD(y0)
 #else
 LIBM_DD_NO(y0)
 #endif
 #ifdef HAVE_Y1
-LIBM_DD(y1)
+//LIBM_DD(y1)
 #else
 LIBM_DD_NO(y1)
 #endif
