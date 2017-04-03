@@ -244,11 +244,11 @@ LIBM_DDD(nextafter)
 #else
 LIBM_DDD_NO(nextafter)
 #endif
-#ifdef HAVE_NEXTTOWARD
-LIBM_DDD(nexttoward)
-#else
+// #ifdef HAVE_NEXTTOWARD
+// LIBM_DDD(nexttoward)
+// #else
 LIBM_DDD_NO(nexttoward)
-#endif
+// #endif
 // #if defined(HAVE_POW10) && !defined(WIN32)
 // LIBM_DD(pow10)
 // #else
