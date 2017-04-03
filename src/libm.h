@@ -68,16 +68,16 @@ LIBM_DDD(hypot)
 #else
 LIBM_DDD_NO(hypot)
 #endif
-#ifdef HAVE_J0
+// #ifdef HAVE_J0
 //LIBM_DD(j0)
-#else
+// #else
 LIBM_DD_NO(j0)
-#endif
-#ifdef HAVE_J1
+// #endif
+// #ifdef HAVE_J1
 //LIBM_DD(j1)
-#else
+// #else
 LIBM_DD_NO(j1)
-#endif
+// #endif
 #ifdef HAVE_LOG
 LIBM_DD(log)
 #else
@@ -133,22 +133,22 @@ LIBM_DD(tgamma)
 #else
 LIBM_DD_NO(tgamma)
 #endif
-#ifdef HAVE_Y0
-//LIBM_DD(y0)
-#else
+// #ifdef HAVE_Y0
+// LIBM_DD(y0)
+// #else
 LIBM_DD_NO(y0)
-#endif
-#ifdef HAVE_Y1
-//LIBM_DD(y1)
-#else
+// #endif
+// #ifdef HAVE_Y1
+// LIBM_DD(y1)
+// #else
 LIBM_DD_NO(y1)
-#endif
-#ifdef HAVE_JN
-LIBM_DDD(jn)
-#endif
-#ifdef HAVE_YN
-LIBM_DDD(yn)
-#endif
+// #endif
+// #ifdef HAVE_JN
+// LIBM_DDD(jn)
+// #endif
+// #ifdef HAVE_YN
+// LIBM_DDD(yn)
+// #endif
 #ifdef HAVE_CEIL
 LIBM_DD(ceil)
 #else
@@ -174,11 +174,11 @@ LIBM_DD(erfc)
 #else
 LIBM_DD_NO(erfc)
 #endif
-#if defined(HAVE_EXP10) && !defined(WIN32)
-LIBM_DD(exp10)
-#else
+// #if defined(HAVE_EXP10) && !defined(WIN32)
+// LIBM_DD(exp10)
+// #else
 LIBM_DD_NO(exp10)
-#endif
+// #endif
 #ifdef HAVE_EXPM1
 LIBM_DD(expm1)
 #else
@@ -249,11 +249,11 @@ LIBM_DDD(nexttoward)
 #else
 LIBM_DDD_NO(nexttoward)
 #endif
-#if defined(HAVE_POW10) && !defined(WIN32)
-LIBM_DD(pow10)
-#else
+// #if defined(HAVE_POW10) && !defined(WIN32)
+// LIBM_DD(pow10)
+// #else
 LIBM_DD_NO(pow10)
-#endif
+// #endif
 #ifdef HAVE_RINT
 LIBM_DD(rint)
 #else
